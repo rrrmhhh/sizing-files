@@ -1,0 +1,9 @@
+//- every new line or words is treated like an hmtl tag
+html
+  title know the size of a file.
+  body
+    h3 Choose a file to see the size
+    form(method='post', action='/', enctype="multipart/form-data")
+      p
+        input(type='file', name='upld')
+        input(type='submit')
